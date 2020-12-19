@@ -7,4 +7,5 @@ bot = telebot.TeleBot(config.TOKEN)
 def lalala(message):
     bot.send_message(message.chat.id, message.text)
 
-bot.polling(none_stop=True)
+bot.polling(none_stop=False)
+
