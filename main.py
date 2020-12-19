@@ -1,4 +1,4 @@
-import telebot
+import telebot #ATABEK SA
 import config
 
 bot = telebot.TeleBot(config.TOKEN)
